@@ -48,14 +48,23 @@ Notes:
 
 *This is a lie man bash is more than 2000 lines. I'd rather the repo author pick out sections that were informative rather than tell the reader to go through man bash. Will figure out which sections are immediately relevant later*
 
-- [ ] Learn at least one text-based editor well. The `nano` editor is one of the simplest for basic editing (opening, editing, saving, searching). However, for the power user in a text terminal, there is no substitute for Vim (`vi`), the hard-to-learn but venerable, fast, and full-featured editor. Many people also use the classic Emacs, particularly for larger editing tasks. (Of course, any modern software developer working on an extensive project is unlikely to use only a pure text-based editor and should also be familiar with modern graphical IDEs and tools.)
+- [x] Learn at least one text-based editor well. The `nano` editor is one of the simplest for basic editing (opening, editing, saving, searching). However, for the power user in a text terminal, there is no substitute for Vim (`vi`), the hard-to-learn but venerable, fast, and full-featured editor. Many people also use the classic Emacs, particularly for larger editing tasks. (Of course, any modern software developer working on an extensive project is unlikely to use only a pure text-based editor and should also be familiar with modern graphical IDEs and tools.)
 
-- [ ] Finding documentation:
-  - [ ] Know how to read official documentation with `man` (for the inquisitive, `man man` lists the section numbers, e.g. 1 is "regular" commands, 5 is files/conventions, and 8 are for administration). Find man pages with `apropos`.
-  - [ ] Know that some commands are not executables, but Bash builtins, and that you can get help on them with `help` and `help -d`. You can find out whether a command is an executable, shell builtin or an alias by using `type command`.
-  - [ ] `curl cheat.sh/command` will give a brief "cheat sheet" with common examples of how to use a shell command.
+*Stick with vim, it'll pay off in the long run. It will serve you even if you learn to do advanced material*
 
-- [ ] Learn about redirection of output and input using `>` and `<` and pipes using `|`. Know `>` overwrites the output file and `>>` appends. Learn about stdout and stderr.
+- [x] Finding documentation:
+  - [x] Know how to read official documentation with `man` (for the inquisitive, `man man` lists the section numbers, e.g. 1 is "regular" commands, 5 is files/conventions, and 8 are for administration). Find man pages with `apropos`.
+
+  *Probably underrated advice* 
+
+  - [x] Know that some commands are not executables, but Bash builtins, and that you can get help on them with `help` and `help -d`. You can find out whether a command is an executable, shell builtin or an alias by using `type command`.
+  - [x] `curl cheat.sh/command` will give a brief "cheat sheet" with common examples of how to use a shell command.
+
+  *Incredibly useful!*
+
+- [x] Learn about redirection of output and input using `>` and `<` and pipes using `|`. Know `>` overwrites the output file and `>>` appends. Learn about stdout and stderr.
+
+*You can find this in* `man bash*`*.*
 
 - [ ] Learn about file glob expansion with `*` (and perhaps `?` and `[`...`]`) and quoting and the difference between double `"` and single `'` quotes. (See more on variable expansion below.)
 
