@@ -46,41 +46,41 @@ Notes:
 
 - [ ] Learn basic Bash. Actually, type `man bash` and at least skim the whole thing; it's pretty easy to follow and not that long. Alternate shells can be nice, but Bash is powerful and always available (learning *only* zsh, fish, etc., while tempting on your own laptop, restricts you in many situations, such as using existing servers).
 
-*This is a lie man bash is more than 2000 lines. I'd rather the repo author pick out sections that were informative rather than tell the reader to go through man bash. Will figure out which sections are immediately relevant later*
+> *This is a lie man bash is more than 2000 lines. I'd rather the repo author pick out sections that were informative rather than tell the reader to go through man bash. Will figure out which sections are immediately relevant later*
 
 - [x] Learn at least one text-based editor well. The `nano` editor is one of the simplest for basic editing (opening, editing, saving, searching). However, for the power user in a text terminal, there is no substitute for Vim (`vi`), the hard-to-learn but venerable, fast, and full-featured editor. Many people also use the classic Emacs, particularly for larger editing tasks. (Of course, any modern software developer working on an extensive project is unlikely to use only a pure text-based editor and should also be familiar with modern graphical IDEs and tools.)
 
-*Stick with vim, it'll pay off in the long run. It will serve you even if you learn to do advanced material*
+> *Stick with vim, it'll pay off in the long run. It will serve you even if you learn to do advanced material*
 
 - [x] Finding documentation:
   - [x] Know how to read official documentation with `man` (for the inquisitive, `man man` lists the section numbers, e.g. 1 is "regular" commands, 5 is files/conventions, and 8 are for administration). Find man pages with `apropos`.
 
-  *Probably underrated advice* 
+  > *Probably underrated advice* 
 
   - [x] Know that some commands are not executables, but Bash builtins, and that you can get help on them with `help` and `help -d`. You can find out whether a command is an executable, shell builtin or an alias by using `type command`.
   - [x] `curl cheat.sh/command` will give a brief "cheat sheet" with common examples of how to use a shell command.
 
-  *Incredibly useful!*
+  > *Incredibly useful!*
 
 - [x] Learn about redirection of output and input using `>` and `<` and pipes using `|`. Know `>` overwrites the output file and `>>` appends. Learn about stdout and stderr.
 
-*You can find this in* `man bash*`*.*
+> *You can find this in* `man bash*`*.*
 
-- [ ] Learn about file glob expansion with `*` (and perhaps `?` and `[`...`]`) and quoting and the difference between double `"` and single `'` quotes. (See more on variable expansion below.)
+- [x] Learn about file glob expansion with `*` (and perhaps `?` and `[`...`]`) and quoting and the difference between double `"` and single `'` quotes. (See more on variable expansion below.)
 
-- [ ] Be familiar with Bash job management: `&`, **ctrl-z**, **ctrl-c**, `jobs`, `fg`, `bg`, `kill`, etc.
+- [x] Be familiar with Bash job management: `&`, **ctrl-z**, **ctrl-c**, `jobs`, `fg`, `bg`, `kill`, etc.
 
-- [ ] Know `ssh`, and the basics of passwordless authentication, via `ssh-agent`, `ssh-add`, etc.
+- [x] Know `ssh`, and the basics of passwordless authentication, via `ssh-agent`, `ssh-add`, etc.
 
-- [ ] Basic file management: `ls` and `ls -l` (in particular, learn what every column in `ls -l` means), `less`, `head`, `tail` and `tail -f` (or even better, `less +F`), `ln` and `ln -s` (learn the differences and advantages of hard versus soft links), `chown`, `chmod`, `du` (for a quick summary of disk usage: `du -hs *`). For filesystem management, `df`, `mount`, `fdisk`, `mkfs`, `lsblk`. Learn what an inode is (`ls -i` or `df -i`).
+- [x] Basic file management: `ls` and `ls -l` (in particular, learn what every column in `ls -l` means), `less`, `head`, `tail` and `tail -f` (or even better, `less +F`), `ln` and `ln -s` (learn the differences and advantages of hard versus soft links), `chown`, `chmod`, `du` (for a quick summary of disk usage: `du -hs *`). For filesystem management, `df`, `mount`, `fdisk`, `mkfs`, `lsblk`. Learn what an inode is (`ls -i` or `df -i`).
 
-- [ ] Basic network management: `ip` or `ifconfig`, `dig`, `traceroute`, `route`.
+- [x] Basic network management: `ip` or `ifconfig`, `dig`, `traceroute`, `route`.
 
-- [ ] Learn and use a version control management system, such as `git`.
+- [x] Learn and use a version control management system, such as `git`.
 
-- [ ] Know regular expressions well, and the various flags to `grep`/`egrep`. The `-i`, `-o`, `-v`, `-A`, `-B`, and `-C` options are worth knowing.
+- [x] Know regular expressions well, and the various flags to `grep`/`egrep`. The `-i`, `-o`, `-v`, `-A`, `-B`, and `-C` options are worth knowing.
 
-- [ ] Learn to use `apt-get`, `yum`, `dnf` or `pacman` (depending on distro) to find and install packages. And make sure you have `pip` to install Python-based command-line tools (a few below are easiest to install via `pip`).
+- [x] Learn to use `apt-get`, `yum`, `dnf` or `pacman` (depending on distro) to find and install packages. And make sure you have `pip` to install Python-based command-line tools (a few below are easiest to install via `pip`).
 
 
 ## Everyday use
