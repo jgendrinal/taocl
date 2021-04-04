@@ -57,12 +57,12 @@ Some of the items below actually are contained in [`man bash`](docs/man-bash).
 Deciding to stick with vim, it'll pay off in the long run. It will serve you even if you learn to do advanced material. 
 
 > - [x] Finding documentation:
->   - [x] Know how to read official documentation with `man` (for the inquisitive, `man man` lists the section numbers, e.g. 1 is "regular" commands, 5 is files/conventions, and 8 are for administration). Find man pages with `apropos`.
+>&nbsp;&nbsp;&nbsp;&nbsp;- [x] Know how to read official documentation with `man` (for the inquisitive, `man man` lists the section numbers, e.g. 1 is "regular" commands, 5 is files/conventions, and 8 are for administration). Find man pages with `apropos`.
 
 Probably underrated advice. First time to read `apropos` here. Need to get better at navigating through documentation in terminal. 
 
->   - [x] Know that some commands are not executables, but Bash builtins, and that you can get help on them with `help` and `help -d`. You can find out whether a command is an executable, shell builtin or an alias by using `type command`.
->   - [x] `curl cheat.sh/command` will give a brief "cheat sheet" with common examples of how to use a shell command.
+>&nbsp;&nbsp;&nbsp;&nbsp;- [x] Know that some commands are not executables, but Bash builtins, and that you can get help on them with `help` and `help -d`. You can find out whether a command is an executable, shell builtin or an alias by using `type command`.
+>&nbsp;&nbsp;&nbsp;&nbsp;- [x] `curl cheat.sh/command` will give a brief "cheat sheet" with common examples of how to use a shell command.
 
 Incredibly useful!
 
