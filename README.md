@@ -48,6 +48,12 @@ Notes:
 
 This is a lie. [`man bash`](docs/man-bash) is more than 2000 lines. I'd rather the repo author pick out sections that were informative rather than tell the reader to go through man bash. Will figure out which sections are immediately relevant later. 
 
+To generate docs files, type this command:
+
+```
+man bash | col -b > man-bash
+```
+
 Some of the items below actually are contained in [`man bash`](docs/man-bash).
 
 <!-- # TODO: Convert man-bash to md file and link relevant sections of file to the README text-->
