@@ -44,7 +44,7 @@ Notes:
 
 ## Basics
 
-> > - [ ] Learn basic Bash. Actually, type `man bash` and at least skim the whole thing; it's pretty easy to follow and not that long. Alternate shells can be nice, but Bash is powerful and always available (learning *only* zsh, fish, etc., while tempting on your own laptop, restricts you in many situations, such as using existing servers).
+> - [ ] Learn basic Bash. Actually, type `man bash` and at least skim the whole thing; it's pretty easy to follow and not that long. Alternate shells can be nice, but Bash is powerful and always available (learning *only* zsh, fish, etc., while tempting on your own laptop, restricts you in many situations, such as using existing servers).
 
 *This is a lie man bash is more than 2000 lines. I'd rather the repo author pick out sections that were informative rather than tell the reader to go through man bash. Will figure out which sections are immediately relevant later*
 
