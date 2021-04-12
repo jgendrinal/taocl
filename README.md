@@ -80,11 +80,15 @@ You can find this in [`man bash`](docs/man-bash).
 
 Par for the course if you've been paying attention to commands on SO answers. `?` and `[`...`]` are hella new to me tho. 
 
-> - [ ] Be familiar with Bash job management: `&`, **ctrl-z**, **ctrl-c**, `jobs`, `fg`, `bg`, `kill`, etc.
+> - [x] Be familiar with Bash job management: `&`, **ctrl-z**, **ctrl-c**, `jobs`, `fg`, `bg`, `kill`, etc.
 
-Super interesting. Am going to start using this. 
+Useful [link](https://linuxhandbook.com/jobs-command/) that shows how to work this. 
 
-> - [ ] Know `ssh`, and the basics of passwordless authentication, via `ssh-agent`, `ssh-add`, etc.
+> - [x] Know `ssh`, and the basics of passwordless authentication, via `ssh-agent`, `ssh-add`, etc.
+
+Learn about connected to Github SSH [here](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh). Also, this is helpful when running VPS's. Often times you'll have to connect to a server using `ssh [user]@[ip_address]` especially if you have private and public SSH keys. 
+
+Learn
 > - [ ] Basic file management: `ls` and `ls -l` (in particular, learn what every column in `ls -l` means), `less`, `head`, `tail` and `tail -f` (or even better, `less +F`), `ln` and `ln -s` (learn the differences and advantages of hard versus soft links), `chown`, `chmod`, `du` (for a quick summary of disk usage: `du -hs *`). For filesystem management, `df`, `mount`, `fdisk`, `mkfs`, `lsblk`. Learn what an inode is (`ls -i` or `df -i`).
 
 > - [ ] Basic network management: `ip` or `ifconfig`, `dig`, `traceroute`, `route`.
